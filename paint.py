@@ -63,10 +63,10 @@ def main():
                     draw_color = color_keys[event.key]
 
                 mode_keys = {
-                    pygame.K_t: 'rectangle',
-                    pygame.K_c: 'circle',
-                    pygame.K_e: 'eraser',
-                    pygame.K_n: 'pen'
+                    pygame.K_t: 'rectangle', #pressing the t key for the rectangle
+                    pygame.K_c: 'circle', #pressing the c key for the circle
+                    pygame.K_e: 'eraser', #pressing the e key for the eraser
+                    pygame.K_n: 'pen' #pressing the n key for the pen
                 }
                 if event.key in mode_keys:
                     draw_mode = mode_keys[event.key]
